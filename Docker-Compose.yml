@@ -1,0 +1,11 @@
+version: "3.8"
+service:
+  Fruit Defect Detection
+    image : python/python:3.8
+    port :
+      - 9000/9000
+    volume:
+      - ./:app
+    commad:
+      - python
+      - app.py
